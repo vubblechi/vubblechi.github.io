@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 50;
-    padding: 50;
+    margin: 100;
+    margin-left: 100;
+    padding: 100;
     background-color: #242123;
 }
 header {
@@ -29,6 +30,7 @@ nav a:hover {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 footer {
     background-color: #574066;
@@ -47,6 +49,7 @@ h1 {
     font-weight: 100px;
     font-style: normal;
     margin: 0 auto;
+    text-align: center;
 }
 
 h2 {
@@ -99,9 +102,9 @@ li {
     transform: translateX(-50%);
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 60%;
     background: #d4b0cb;
-    border: 2px solid #333;
+    border: 2px solid #33333300;
     z-index: 1;
 }
 
@@ -118,7 +121,7 @@ li {
 .reason {
     background-color: #eacbeb; /*maybe light background idk :( */
     color: #333; /* Dark text color for contrast */
-    border-left: 4px solid #e67198; /* dark left border */
+    border-left: 4px solid #b171e6; /* dark left border */
     padding: 10px;
     margin-top: 5px;
     margin-left: 20px;
@@ -128,4 +131,9 @@ li {
 
 .reason strong {
     color: #ec37bf; /* Match border color for emphasis?????? */
+}
+
+.img {
+    margin-left: 50px;
+    margin-right: 50px;
 }
