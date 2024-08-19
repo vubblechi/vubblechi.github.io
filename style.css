@@ -1,28 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a;
+    margin: 12;
+    padding: 12;
+    background-color: #242123;
 }
 header {
-    background-color: #f1d6bc;
+    background-color: #574066;
     color: white;
     padding: 20px;
     text-align: center;
-}
+}  
 nav {
     margin: 0;
     padding: 10px;
-    background-color: #664e40;
+    background-color: #86637f;
+    text-align: center;
 }
 nav a {
-    color: rgb(232, 204, 175);
+    color: rgb(251, 218, 255);
     padding: 14px 20px;
     text-decoration: none;
     display: inline-block;
 }
 nav a:hover {
-    background-color: #533222;
+    background-color: #c794ae;
 }
 .container {
     padding: 20px;
@@ -30,7 +31,7 @@ nav a:hover {
     margin: 0 auto;
 }
 footer {
-    background-color: #664e40;
+    background-color: #574066;
     color: white;
     text-align: center;
     padding: 10px;
@@ -40,14 +41,25 @@ footer {
 }
 h1 {
     color: rgb(255, 255, 255);
-    font-family: "Playwrite NG Modern", cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
+    font-size: 50px;
     font-weight: 100px;
     font-style: normal;
+    margin: 0 auto;
 }
 
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 70px;
+    font-style: normal;
+    margin: 0 auto;
+}
 p {
-    color: beige;
+    color: rgb(255, 255, 255);
 }
 
 p strong {
@@ -55,11 +67,65 @@ p strong {
 }
 
 article {
-    text-align: center;
     font-weight: 100;
     font-size: 20px;
     border-width: 1;
     border-style: double;
-    border-color: #664e40;
+    border-color: #e9a9e9;
+    text-align: center;
 }
 
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    margin: 40px 0;
+    border-bottom: 2px solid #333;
+}
+
+.divider::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #d4b0cb;
+    border: 2px solid #333;
+    z-index: 1;
+}
+
+.divider span {
+    position: relative;
+    background: #ffffff00;
+    padding: 0 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+    z-index: 2;
+}
+
+
+.reason {
+    background-color: #f0f8ff; /*maybe light background idk :( */
+    color: #333; /* Dark text color for contrast */
+    border-left: 4px solid #da326a; /* dark left border */
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.reason strong {
+    color: #007bff; /* Match border color for emphasis?????? */
+}
