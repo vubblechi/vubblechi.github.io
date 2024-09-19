@@ -64,20 +64,25 @@ pauseButton.addEventListener("click", pauseAudio);
 function pauseAudio() {
     notify.pause();
 }
-//grab pop
+//grab pop sound
 const popSound = document.querySelector("#pop.button");
 console.log(notify);
-///play pause one the video
+///play pause one the video + addeventlistener + grab + function
 playPauseButton.addEventListener("click", playPauseVdieo);
 
 function playPauseVdieo() {
     if(myVideo.paused || myVideo.ended) {
         myVideo.play();
 }else { 
-    myVideoi.ause();
+    myVideoi.use();
 }
     }
     
 const playPauseImg = document.querySelector("#play-pause-img")
+
+//eg grab access to GLITCHER
+
+const glitchPress = document.querySelector("#glitch.press");
+console.log(glitchPress);
 
 
